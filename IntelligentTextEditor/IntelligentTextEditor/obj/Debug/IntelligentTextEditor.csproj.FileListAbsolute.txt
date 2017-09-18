@@ -1,0 +1,10 @@
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.exe.config
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.exe
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.pdb
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.csprojResolveAssemblyReference.cache
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.Properties.Resources.resources
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.csproj.GenerateResource.Cache
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.exe
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.pdb
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.MainFrame.resources
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AddWordForm.resources
