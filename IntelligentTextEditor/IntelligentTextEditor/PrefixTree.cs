@@ -117,7 +117,7 @@ namespace IntelligentTextEditor
                     }
                 }
             }
-            if (cont == word.Length) //If the number of letters visited in the Prefix tree equals word length them
+            if (cont == word.Length) //If the number of letters visited in the Prefix tree equals word length then
             {                        //the word typed is in Prefix tree, else the word typed isn't in Prefix tree
                 return actual;
             }
