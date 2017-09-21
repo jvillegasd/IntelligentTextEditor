@@ -39,5 +39,10 @@ namespace IntelligentTextEditor
                 e.Handled = true;
             }
         }
+
+        private void AddWordForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

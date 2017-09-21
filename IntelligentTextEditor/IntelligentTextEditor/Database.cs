@@ -17,7 +17,7 @@ namespace IntelligentTextEditor
             this.dbPath = slnPath + @"\Database.txt";
         }
 
-        public void addToTree(SuggestTree sTree)
+        public void addToTree(PrefixTree sTree)
         {
             String line;
             try

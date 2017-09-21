@@ -6,5 +6,6 @@ C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\In
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.csproj.GenerateResource.Cache
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.exe
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.pdb
-C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.MainFrame.resources
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AddWordForm.resources
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AboutForm.resources
+C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.MainForm.resources

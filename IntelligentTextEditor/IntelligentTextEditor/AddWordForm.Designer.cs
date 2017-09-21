@@ -85,6 +85,7 @@
             this.MaximizeBox = false;
             this.Name = "AddWordForm";
             this.Text = "Agregar palabra";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddWordForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
