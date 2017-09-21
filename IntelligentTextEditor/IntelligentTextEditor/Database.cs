@@ -17,7 +17,7 @@ namespace IntelligentTextEditor
             this.dbPath = slnPath + @"\Database.txt";
         }
 
-        public void addToTree(PrefixTree sTree)
+        public void addToTree(PrefixTree pTree)
         {
             String line;
             try
@@ -27,18 +27,18 @@ namespace IntelligentTextEditor
                 while (line != null)
                 {
                     line = line.ToLower();
-                    sTree.addNode(line, 0, sTree.getRoot());
+                    pTree.addNode(line, 0, pTree.getRoot());
                     line = fileReader.ReadLine();
                 }
                 fileReader.Close();
             }
             catch (Exception)
             {
-                File.Create(this.dbPath).Dispose();
+                File.Create(this.dbPath).Dispose(); //If Database.txt is deleted or it's not exists, create it
             }
         }
 
-        public void writeDatabase(Node root) //In this function I go around root children
+        public void writeDatabase(Node root) //This function is for go around in actual node children
         {
             List<String> words = new List<String>();
             int length = root.getChildren().Count;
@@ -57,7 +57,7 @@ namespace IntelligentTextEditor
             fileWriter.Close();
         }
 
-        private void checkWords(String word, Node actual, ref List<String> words) //Them here i concatenating words
+        private void checkWords(String word, Node actual, ref List<String> words) //Then here are concatenating letters to get words
         {
             if (actual.getChildren().Count != 0)
             {

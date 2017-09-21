@@ -16,7 +16,7 @@ namespace IntelligentTextEditor
 
     public partial class MainForm : Form
     {
-        private PrefixTree suggestTree = new PrefixTree();
+        private PrefixTree prefixTree = new PrefixTree();
         private Database database = new Database();
         private String filePath; //This var save file path that user picked
         private StreamReader fileReader = null;
@@ -29,7 +29,7 @@ namespace IntelligentTextEditor
             InitializeComponent();
             textBox.ScrollBars = ScrollBars.Vertical; //Add a scrollbar to textBox
             textBox.WordWrap = true; //Add a word wrap to textBox
-            this.database.addToTree(this.suggestTree); //Add databese.txt to the SuggestTree
+            this.database.addToTree(this.prefixTree); //Add databese.txt to the SuggestTree
             this.CenterToScreen();
             this.saveToolStrip.Enabled = false;
         }
@@ -141,7 +141,7 @@ namespace IntelligentTextEditor
 
         private void MainFrame_FormClosed(object sender, FormClosedEventArgs e)
         {
-            this.database.writeDatabase(this.suggestTree.getRoot()); //Overwrite Database.txt with old and new words
+            this.database.writeDatabase(this.prefixTree.getRoot()); //Overwrite Database.txt with old and new words
         }
 
         private void textBox_MouseCaptureChanged(object sender, EventArgs e)
@@ -162,7 +162,7 @@ namespace IntelligentTextEditor
             {
                 this.word = this.word + Convert.ToString(e.KeyChar);
                 this.word = this.word.ToLower();
-                this.suggestWords = this.suggestTree.getSuggestWords(this.word);
+                this.suggestWords = this.prefixTree.getSuggestWords(this.word);
                 if (this.suggestWords.Count != 0)
                 {
                     this.setSuggestWords();
@@ -174,7 +174,7 @@ namespace IntelligentTextEditor
                 {
                     this.word = this.word.Substring(0, this.word.Length - 1);
                     this.word = this.word.ToLower();
-                    this.suggestWords = this.suggestTree.getSuggestWords(this.word);
+                    this.suggestWords = this.prefixTree.getSuggestWords(this.word);
                     if (this.suggestWords.Count != 0)
                     {
                         this.setSuggestWords();
@@ -198,12 +198,12 @@ namespace IntelligentTextEditor
         private void addToolStrip_Click(object sender, EventArgs e)
         {
             AddWordForm addWord = new AddWordForm();
-            addWord.StartPosition = FormStartPosition.CenterParent; //Set addWord position on center of MainFrame position
+            addWord.StartPosition = FormStartPosition.CenterParent; //Set addWord position on center of MainForm position
             if (addWord.ShowDialog() == DialogResult.OK && addWord.text.Length > 0)
             {
-                this.suggestTree.addNode(addWord.text, 0, this.suggestTree.getRoot());
+                this.prefixTree.addNode(addWord.text, 0, this.prefixTree.getRoot());
             }
-            addWord = null;
+            addWord.Dispose();
         }
 
         private void aboutEditorToolStrip_Click(object sender, EventArgs e)
