@@ -9,3 +9,14 @@ C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\In
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AddWordForm.resources
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AboutForm.resources
 C:\Users\Johnny\Desktop\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.MainForm.resources
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.exe.config
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.exe
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.pdb
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.exe
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\bin\Debug\IntelligentTextEditor.pdb
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.csprojResolveAssemblyReference.cache
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AboutForm.resources
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.AddWordForm.resources
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.MainForm.resources
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.Properties.Resources.resources
+C:\Users\Johnny\Desktop\Carpetas y demas\Programacion\Creaciones\IntelligentTextEditor\IntelligentTextEditor\obj\Debug\IntelligentTextEditor.csproj.GenerateResource.Cache

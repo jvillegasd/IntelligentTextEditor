@@ -67,7 +67,6 @@ namespace IntelligentTextEditor
                 if (wLastLetter.Equals(nLetter))
                 {
                     wordFound = true;
-                    nLastLetter = nLastLetter.getFather(); //Get the father node for search suggest words
                 }
                 else
                 {
@@ -76,20 +75,8 @@ namespace IntelligentTextEditor
             }
             if (wordFound)
             {
-                int length = nLastLetter.getChildren().Count;
-                for (int i = 0; i < length; i++)
-                {
-                    wordFound = false;
-                    Node newLastL = nLastLetter.getChildren().ElementAt(i);
-                    String sLetter = Convert.ToString(newLastL.getLetter());
-                    if (wLastLetter.Equals(sLetter))
-                    {
-                        int cont = 0;             
-                        this.checkWords(newLastL, word, ref cont);
-                        wordFound = true;
-                        break;
-                    }
-                }
+                int cont = 0;
+                this.checkWords(nLastLetter, word, ref cont);
             }
             if (!wordFound)
             {
