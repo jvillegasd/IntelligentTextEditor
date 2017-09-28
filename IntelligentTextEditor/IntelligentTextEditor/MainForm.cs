@@ -50,7 +50,7 @@ namespace IntelligentTextEditor
 
         private void setSuggestWords()
         {
-            String partialTextBox = textBox.Text.Substring(0, textBox.SelectionStart); //Partial text of textBox, when the last word is the word typed by user
+            String partialTextBox = textBox.Text.Substring(0, textBox.SelectionStart); //Partial text of textBox, where the last word is the word typed by user
             int index = partialTextBox.LastIndexOf(this.word); //Get index of the last aparition of a word
             Point posRespectTb = textBox.GetPositionFromCharIndex(index); //Get position (x,y) of index respect to textBox
             int length = 0;
@@ -68,7 +68,7 @@ namespace IntelligentTextEditor
 
         private void setNull()
         {
-            this.word = "";
+            this.word = string.Empty;
         }
 
         private void openToolStrip_Click(object sender, EventArgs e)
